@@ -13,4 +13,4 @@ try{
 $initQuerys = file_get_contents('./init.sql', true);
 $dbh->exec($initQuerys);
 
-header("Location: /");
+header("Location: ${topPath}");

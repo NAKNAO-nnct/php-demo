@@ -28,4 +28,4 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && $_POST['_method'] == 'PUT'){
     }
 }
 
-header("Location: $topPath");
+header("Location: ${topPath}");
