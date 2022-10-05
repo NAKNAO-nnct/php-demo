@@ -12,5 +12,7 @@ try{
     die();
 }
 
-$initQuerys = file_get_contents('./init/init.sql', true);
+$initQuerys = file_get_contents('./init.sql', true);
 $dbh->exec($initQuerys);
+
+header("Location: /");
