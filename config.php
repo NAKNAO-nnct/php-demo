@@ -1,7 +1,7 @@
 <?php
 
 // DB設定
-$servername = 'mysql';
+$serverhost = 'mysql';
 $username = 'root';
 $password = 'password';
 $database = 'todo';

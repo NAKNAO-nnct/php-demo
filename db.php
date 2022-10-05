@@ -2,7 +2,7 @@
 
 require('./config.php');
 
-$dsn = "${servername}:dbname=${database};host=${servername}";
+$dsn = "mysql:dbname=${database};host=${serverhost}";
 try{
     $dbh = new PDO($dsn, $username, $password);
 } catch (PDOException $e){
