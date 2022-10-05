@@ -1,10 +1,6 @@
 <?php
 
-// DB設定
-$servername = 'mysql';
-$username = 'root';
-$password = 'password';
-$database = 'todo';
+require('./config.php');
 
 $dsn = "${servername}:dbname=${database};host=${servername}";
 try{

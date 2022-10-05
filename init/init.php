@@ -1,8 +1,6 @@
 <?php
-// DB設定
-$servername = "mysql";
-$username = "root";
-$password = "password";
+
+require('../config.php');
 
 $dsn = $servername . ':host=' . $servername;
 try{
